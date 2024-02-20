@@ -12,7 +12,7 @@ title: Cenários mapeados
 | TC003 | Recuperação de Senha             | @bscarpari   |
 | TC004 | Pesquisa de Produto              | @JanierSilva |
 | TC005 | Adicionar Produto ao Carrinho    | @bscarpari   |
-| TC006 | Atualizar Quantidade no Carrinho | @JanierSilva |
+| TC006 | Atualizar Quantidade no Carrinho | @bscarpari |
 | TC007 | Remover Produto do Carrinho      | @bscarpari   |
 | TC008 | Finalizar Compra                 | @JanierSilva |
 | TC009 | Visualizar Histórico de Pedidos  | @bscarpari   |
