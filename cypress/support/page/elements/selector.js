@@ -1,7 +1,11 @@
 export const SELECTOR = {
-  login: {},
-  cadastro: {
+  login: {
     linkIrParaLogin: ".login",
+    email: "#email",
+    senha: "#passwd",
+    btnFazerLogin: "#SubmitLogin"
+  },
+  cadastro: {
     emailDeCriacao: "#email_create",
     criarContaErro: "#create_account_error",
     btnCadastrar: "#SubmitCreate > span",
@@ -31,9 +35,26 @@ export const SELECTOR = {
     alias: "#alias",
     btnCriarConta: "#submitAccount"
   },
-  recuperarSenha: {},
-  produto: {},
-  carrinho: {},
+  recuperarSenha: {
+    email: "#email",
+    btnRecuperarSenha: ".submit > .btn > span",
+    msgmDeErro: "ol > li",
+    alert: ".alert"
+  },
+  produto: {
+    produtos: ".product-container",
+    btnAdicionarAoCarrinho: "#add_to_cart",
+    mensagemDeSucesso: ".layer_cart_product > .title",
+    mensagemDeQuantia: ".title > .ajax_cart_product_txt",
+    btnContinuar: ".continue"
+  },
+  carrinho: {
+    carrinhoDeCompras: ".shopping_cart",
+    quantidade: ".ajax_cart_quantity"
+  },
   checkout: {},
-  historicoPedidos: {}
+  historicoPedidos: {
+    historicoDePedidos: ".icon-list-ol",
+    detalhesDoPedido: ".first_item > .history_link"
+  }
 }

@@ -5,7 +5,7 @@ describe("Cadastro", () => {
     cy.visit("/index.php?controller=authentication&back=my-account")
   })
 
-  it.only("Test 01 - Verificar se é possível realizar um cadastro de usuário válido com tudo selecionado", () => {
+  it("Test 01 - Verificar se é possível realizar um cadastro de usuário válido com tudo selecionado", () => {
     cy.fazerCadastro(true)
   })
 
